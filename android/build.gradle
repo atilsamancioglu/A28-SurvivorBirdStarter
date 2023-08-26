@@ -32,6 +32,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    buildFeatures {
+        renderScript true
+        aidl true
+    }
 }
 
 
